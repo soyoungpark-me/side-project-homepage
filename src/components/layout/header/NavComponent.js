@@ -4,10 +4,10 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   display: block;
   position: absolute;
-  width: -webkit-calc(100% - 220px);
-  width:    -moz-calc(100% - 220px);
-  width:         calc(100% - 220px);
-  margin-left: 220px;
+  width: -webkit-calc(100% - 244px);
+  width:    -moz-calc(100% - 244px);
+  width:         calc(100% - 244px);
+  margin-left: 244px;
   height: 45px;
   bottom: 20px;
   background-color: black;
@@ -20,7 +20,7 @@ const Button = styled.div`
   height: 100%;
   background-color: red;
   margin-right: 15px;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   `;
 

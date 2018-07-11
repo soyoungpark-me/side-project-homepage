@@ -26,7 +26,7 @@ const AvatarImage = styled.div`
   position: absolute;
   width: 180px;
   height: 180px;
-  left: 20px;
+  left: 44px;
   bottom: 0;
   border-radius: 10px;
   background-image: url(${imagepath});
@@ -37,8 +37,8 @@ const AvatarImage = styled.div`
 const NameWrapper = styled.p`
   position: absolute;
   bottom: 40px;
-  left: 220px;
-  font-family: 'Patua One', cursive;
+  left: 244px;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   z-index: 2;
   `;

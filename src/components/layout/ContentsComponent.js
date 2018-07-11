@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ProfileComponent from '../home/ProfileComponent';
+import HomeComponent from '../home/HomeComponent';
 
 const Wrapper = styled.div`
   display: block;
@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 const ContentsComponent = () => {
   return (
     <Wrapper>
-      <ProfileComponent />
+      <HomeComponent />
     </Wrapper>
   );
 };
