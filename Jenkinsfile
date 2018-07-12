@@ -26,7 +26,7 @@ node {
         sh 'docker run -d -p 9008:9008 --name=homepagefe homepagefe'
         // sh 'docker tag homepagefe localhost:9008/homepagefe'
         // sh 'docker push localhost:9008/homepagefe'
-        sh 'docker rmi -f homepagefe localhost:9008/homepagefe'
+        // sh 'docker rmi -f homepagefe localhost:9008/homepagefe'
       }
     }
   }
