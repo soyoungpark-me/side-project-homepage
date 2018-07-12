@@ -21,9 +21,11 @@ node {
     // }
     stage('Deploy'){
       if(env.BRANCH_NAME == 'master'){
+        sh 'docker rmi -f homepagefe'
         sh 'docker build -t homepagefe --no-cache .'
-        sh 'docker tag homepagefe localhost:9008/homepagefe'
-        sh 'docker push localhost:9008/homepagefe'
+        sh 'docker run -d -p 9008:9008 --name=homepagefe homepagefe'
+        // sh 'docker tag homepagefe localhost:9008/homepagefe'
+        // sh 'docker push localhost:9008/homepagefe'
         sh 'docker rmi -f homepagefe localhost:9008/homepagefe'
       }
     }
