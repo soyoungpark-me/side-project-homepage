@@ -12,7 +12,7 @@ RUN npm install
 COPY . /usr/src/app
 
 # 포트 설정
-EXPOSE 5002
+EXPOSE 9008
 
 # run 커맨드 설정
 CMD ["npm", "start"]
