@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import BodyComponent from './layout/BodyComponent';
+import '../public/App.css';
+
+import jQuery from "jquery";
+window.$ = window.jQuery = jQuery;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <BodyComponent/>
+      <div className="App">        
       </div>
     );
   }

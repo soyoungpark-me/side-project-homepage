@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
-import 'semantic-ui-css/semantic.min.css';
-import './include/bootstrap'
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-const rootElement = document.getElementById('root');    
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
