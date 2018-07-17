@@ -42,7 +42,7 @@ const NavComponent = () => {
           <NavItemComponent name="portfolio" />
           <NavItemComponent name="skills" />
           <div className="top-line"></div>
-          <NavItemComponent name="sogs" />
+          <NavItemComponent name="logs" />
           <NavItemComponent name="wiki" />          
         </ul>
       </div>

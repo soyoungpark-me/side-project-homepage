@@ -35,7 +35,7 @@ node {
 
         // sh 'docker rmi -f homepagefe:latest'
         // sh 'docker rm -f homepagefe'
-        // sh 'docker rmi $(docker images -f "dangling=true" -q)'
+        sh 'docker rmi $(docker images -f "dangling=true" -q)'
         sh 'docker build -t homepagefe --no-cache .'
         sh 'docker run -d -p 9008:9008 --name=homepagefe homepagefe:latest'
         // sh 'docker tag homepagefe localhost:9008/homepagefe'
