@@ -26,9 +26,9 @@ class AboutComponent extends React.Component {
           <p class="bio">웹 백엔드 개발자를 꿈꾸는 박소영입니다.</p>
           <p id="demo" class="mb-5"></p>
           <ul class="list-inline list-social-icons mb-0">
-            <SocialComponent name="facebook" link="https://www.facebook.com/3457soso" />
+            <SocialComponent name="facebook-f" link="https://www.facebook.com/3457soso" />
             <SocialComponent name="twitter"  link="https://www.facebook.com/3457soso" />
-            <SocialComponent name="linkedin" link="https://www.linkedin.com/in/soyoung-park-737a57168/" />
+            <SocialComponent name="linkedin-in" link="https://www.linkedin.com/in/soyoung-park-737a57168/" />
             <SocialComponent name="github"   link="https://www.github.com/3457soso" />
           </ul>
         </div>

@@ -6,7 +6,7 @@ const SocialComponent = (props) => {
       <a href={props.link} target="_blank">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
-          <i class={`fa fa-${props.name} fa-stack-1x fa-inverse`}></i>
+          <i class={`fab fa-${props.name} fa-stack-1x fa-inverse`}></i>
         </span>
       </a>
     </li>

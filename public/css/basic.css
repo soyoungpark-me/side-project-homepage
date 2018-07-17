@@ -117,8 +117,15 @@ p {
 }
 
 #demo {
-  min-height: 36px;
+  min-height: 72px;
   margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  #demo {
+    min-height: 36px;
+    margin-bottom: 40px;
+  }
 }
 
 .list-social-icons a {
@@ -155,8 +162,9 @@ p {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 18.5rem;
     height: 100vh;
+    padding: 0 !important;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -174,6 +182,7 @@ p {
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
+    padding: 15px;
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
@@ -189,6 +198,25 @@ p {
     margin: 20px 0;
     border-top: 2px solid rgba(255, 255, 255, 0.3);
   }  
+  .devicon{
+    margin-right: 5px !important;
+  }
+}
+
+.stack-icon-wrapper{
+  background-color: #50514F;
+  padding: 20px;
+  width: 100%;
+}
+
+.extraClass {
+  font-size: 1.25rem !important;
+  pointer-events: auto !important;
+}
+
+.extraClass:hover {
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 #about {
@@ -213,10 +241,12 @@ p {
   height: 100%;
 }
 
-#about .my-auto {
-  width: 100%;
-  padding-right: 50px;
-  color: white;
+@media (min-width: 992px) {
+  #about .my-auto {
+    width: 100%;
+    padding-right: 50px;
+    color: white;
+  }
 }
 
 #about .my-auto h1 {

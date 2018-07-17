@@ -4,15 +4,23 @@ import { Link } from 'react-scroll'
 
 import AvatarComponent from './AvatarComponent';
 import NavItemComponent from './NavItemComponent';
+import DevItemComponent from './DevItemComponent';
 
 const NoPadding = styled.a`
   padding: 0 !important;
 `;
+
 const HomeTitleIcon = styled.span`
   font-size: 2rem;
   line-height: 1;
   margin-top: 3px;
   color: white;
+`;
+
+const StackPWrapper = styled.p`
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 `;
 
 const NavComponent = () => {
@@ -37,6 +45,14 @@ const NavComponent = () => {
           <NavItemComponent name="sogs" />
           <NavItemComponent name="wiki" />          
         </ul>
+      </div>
+      <div className="stack-icon-wrapper">
+      <StackPWrapper>Developed With</StackPWrapper>
+          <DevItemComponent name="react" fontColor="#37D8FD" fontSize="1.7rem" />          
+          <DevItemComponent name="node-js" fontColor="#8EC35C" fontSize="1.8rem" />
+          <DevItemComponent name="docker" fontColor="#359FD8" fontSize="1.5rem" />
+          <DevItemComponent name="jenkins" fontColor="#FF7272" fontSize="1.7rem" />
+          <DevItemComponent name="aws" fontColor="#F9BC35" fontSize="1.5rem" />
       </div>
     </nav>
   );

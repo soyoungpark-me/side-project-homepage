@@ -23,7 +23,7 @@ function typeWriter() {
   timer = setTimeout(typeWriter, speed);
 
   if (!flag) {
-    speed = 110;
+    speed = 120;
     cursor = 5;
     at++;
   } else {
@@ -39,7 +39,7 @@ function typeWriter() {
     
   } else if (textSet[index].length + 1 == at) {
     console.log('here');
-    speed = 300;
+    speed = 350;
     flag = true;
     at--;
   }
