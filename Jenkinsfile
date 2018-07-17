@@ -21,13 +21,13 @@ node {
     // }
     stage('Deploy'){
       if(env.BRANCH_NAME == 'master'){
-        if [ ! "$(docker ps -q -f name=homepagefe)" ]; then
-          if [ "$(docker ps -aq -f status=exited -f name=homepagefe)" ]; then
+        if("$(docker ps -q -f name=homepagefe)" != null)
+          if("$(docker ps -aq -f status=exited -f name=homepagefe)" != null)
               sh 'docker rmi -f homepagefe'
           fi
         fi
 
-        if [ ! "$(docker images -q homepagefe:latest)" ]; then          
+        if(! "$(docker images -q homepagefe:latest)" != null)
           sh 'docker rm -f homepagefe'          
         fi
 
