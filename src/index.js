@@ -1,9 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import Favicon from 'react-favicon';
+
 import 'bootstrap/dist/css/bootstrap.css';
+
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import faviconPath from '../public/favicon.ico';
+
+ReactDOM.render(
+  <div>
+    <Favicon url={faviconPath} />
+    <App />
+  </div>, 
+  document.getElementById('root'));
 registerServiceWorker();

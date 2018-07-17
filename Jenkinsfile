@@ -23,11 +23,15 @@ node {
       if(env.BRANCH_NAME == 'master'){
         try {
           sh 'docker rmi -f homepagefe'
-        } catch (Error) {}
+        } catch (err) { 
+          throw err
+        }
 
         try {
           sh 'docker rm -f homepagefe'   
-        } catch (Error) {}
+        } catch (err) { 
+          throw err
+        }
 
         // sh 'docker rmi -f homepagefe:latest'
         // sh 'docker rm -f homepagefe'
