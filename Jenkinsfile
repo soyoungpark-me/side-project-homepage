@@ -21,9 +21,19 @@ node {
     // }
     stage('Deploy'){
       if(env.BRANCH_NAME == 'master'){
-        sh 'docker rmi -f homepagefe:latest'
-        sh 'docker rm -f homepagefe'
-        sh 'docker rmi $(docker images -f "dangling=true" -q)'
+        if [ ! "$(docker ps -q -f name=homepagefe)" ]; then
+          if [ "$(docker ps -aq -f status=exited -f name=homepagefe)" ]; then
+              sh 'docker rmi -f homepagefe'
+          fi
+        fi
+
+        if [ ! "$(docker images -q homepagefe:latest)" ]; then          
+          sh 'docker rm -f homepagefe'          
+        fi
+
+        // sh 'docker rmi -f homepagefe:latest'
+        // sh 'docker rm -f homepagefe'
+        // sh 'docker rmi $(docker images -f "dangling=true" -q)'
         sh 'docker build -t homepagefe --no-cache .'
         sh 'docker run -d -p 9008:9008 --name=homepagefe homepagefe:latest'
         // sh 'docker tag homepagefe localhost:9008/homepagefe'
