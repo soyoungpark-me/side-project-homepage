@@ -21,15 +21,13 @@ node {
     // }
     stage('Deploy'){
       if(env.BRANCH_NAME == 'master'){
-        if("$(docker ps -q -f name=homepagefe)" != null)
-          if("$(docker ps -aq -f status=exited -f name=homepagefe)" != null)
-              sh 'docker rmi -f homepagefe'
-          fi
-        fi
+        try {
+          sh 'docker rmi -f homepagefe'
+        } catch (Error) {}
 
-        if(! "$(docker images -q homepagefe:latest)" != null)
-          sh 'docker rm -f homepagefe'          
-        fi
+        try {
+          sh 'docker rm -f homepagefe'   
+        } catch (Error) {}
 
         // sh 'docker rmi -f homepagefe:latest'
         // sh 'docker rm -f homepagefe'
