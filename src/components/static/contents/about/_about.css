@@ -1,0 +1,94 @@
+#about {
+  position: relative;
+  background-color: black;
+  z-index: 1;
+  text-align: right;
+}
+
+#about:after {
+  background-image: url("../../../../../public/images/background.jpg");
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 100%;
+  opacity:0.8 !important;
+  filter: alpha(opacity=80);
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+#about .my-auto h1 {
+  color: white;
+  font-size: 6rem;
+}
+
+.head-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.running {
+  font-size: 2.1rem; 
+  position: absolute;
+  top: 0.5rem;
+  left: -3.1rem;
+}
+
+.subheading:first-of-type {
+  display: inline-block;
+  margin-top: 15px !important;
+  border-top: 1px solid white;
+  padding-top: 3px;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', 'Gothic A1', serif;
+  font-size: 1.8rem;
+  margin: 0 !important;
+  margin-top: 5px !important;
+}
+.bio {
+  margin-top: 30px;
+}
+
+#demo {
+  min-height: 72px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  #demo {
+    min-height: 36px;
+    margin-bottom: 40px;
+  }
+  #about .my-auto {
+    width: 100%;
+    padding-right: 50px;
+    color: white;
+  }
+}
+
+.list-social-icons a {
+  color: #676d74;
+}
+
+.list-social-icons a:hover {
+  color: #E63946;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #E63946;
+}

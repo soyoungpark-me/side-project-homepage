@@ -2,6 +2,8 @@ import React from 'react';
 import typing from '../../../../../public/js/typing';
 import SocialComponent from './SocialComponent';
 
+import './_about.css';
+
 class AboutComponent extends React.Component {
   componentDidMount() {
     typing();
@@ -9,23 +11,23 @@ class AboutComponent extends React.Component {
 
   render() {
     return (
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Soyoung
-            <span class="text-primary"> Park</span>
+      <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div className="my-auto">
+          <h1 className="mb-0">Soyoung
+            <span className="text-primary"> Park</span>
           </h1>
-          <div class="md-5 head-wrapper">
-            <i class="running em em-woman-running"></i>
-            <div class="subheading">            
+          <div className="md-5 head-wrapper">
+            <i className="running em em-woman-running"></i>
+            <div className="subheading">            
               Senior Student, Majoring in <strong>Software Engineering</strong> at Konkuk University
             </div>
           </div>          
-          <div class="subheading mb-5">
+          <div className="subheading mb-5">
             <a href="mailto:soyoungpark.me@gmail.com">soyoungpark.me@gmail.com</a>
           </div>
-          <p class="bio">웹 백엔드 개발자를 꿈꾸는 박소영입니다.</p>
-          <p id="demo" class="mb-5"></p>
-          <ul class="list-inline list-social-icons mb-0">
+          <p className="bio">웹 백엔드 개발자를 꿈꾸는 박소영입니다.</p>
+          <p id="demo" className="mb-5"></p>
+          <ul className="list-inline list-social-icons mb-0">
             <SocialComponent name="facebook-f" link="https://www.facebook.com/3457soso" />
             <SocialComponent name="twitter"  link="https://www.facebook.com/3457soso" />
             <SocialComponent name="linkedin-in" link="https://www.linkedin.com/in/soyoung-park-737a57168/" />

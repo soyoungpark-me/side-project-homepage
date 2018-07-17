@@ -2,11 +2,11 @@ import React from 'react';
 
 const SocialComponent = (props) => {
   return (
-    <li class="list-inline-item">
+    <li className="list-inline-item">
       <a href={props.link} target="_blank">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class={`fab fa-${props.name} fa-stack-1x fa-inverse`}></i>
+        <span className="fa-stack fa-lg">
+          <i className="fa fa-circle fa-stack-2x"></i>
+          <i className={`fab fa-${props.name} fa-stack-1x fa-inverse`}></i>
         </span>
       </a>
     </li>
