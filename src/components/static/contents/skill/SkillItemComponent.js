@@ -41,16 +41,16 @@ const SkillItemComponent = (props) => {
   return (
     <Wrapper>
       <LogoIcon>
-        { (props.name) == "spring"
+        { (props.name) === "spring"
           ? <LogoImage src={springLogoPath} /> : ""
         }
-        { (props.name) == "jenkins"
+        { (props.name) === "jenkins"
           ? <LogoImage src={jenkinsLogoPath} /> : ""
         }
-        { (props.name) == "python"
+        { (props.name) === "python"
           ? <LogoImage src={pythonsLogoPath} /> : ""
         }
-        { (props.name != "spring" && props.name != "jenkins" && props.name != "python")
+        { (props.name !== "spring" && props.name !== "jenkins" && props.name !== "python")
           ? <i className={`devicon-${props.name}-plain${(props.wordmark == "true") ? "-wordmark" : ""} colored`}></i>
           : ""
         }

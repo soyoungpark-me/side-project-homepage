@@ -4,6 +4,7 @@
 
 .navbar-top-name{
   display: block;
+  color: white !important;
 }
 .stack-icon-wrapper{
   background-color: #50514F;

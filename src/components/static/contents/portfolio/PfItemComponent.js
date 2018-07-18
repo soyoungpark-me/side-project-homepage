@@ -72,13 +72,13 @@ const PfItemComponent = (props) => {
         {props.stack}
 
         <ButtonWrapper>
-          <Button className={"btn " + (props.link == "" ? 'btn-secondary disabled' : 'btn-danger')} target="_blank" href={props.link}>
+          <Button className={"btn " + (props.link === "" ? 'btn-secondary disabled' : 'btn-danger')} target="_blank" href={props.link}>
             <WhiteButton><i class="fab fa-chrome"></i> WEB</WhiteButton>
           </Button>
-          <Button className={"btn " + (props.demo == "" ? 'btn-secondary disabled' : 'btn-info')} target="_blank" href={props.demo}>
+          <Button className={"btn " + (props.demo === "" ? 'btn-secondary disabled' : 'btn-info')} target="_blank" href={props.demo}>
             <WhiteButton><i class="fas fa-video"></i> DEMO</WhiteButton>
           </Button>    
-          <Button className={"btn " + (props.git == "" ? 'btn-secondary disabled' : 'btn-info')} target="_blank" href={props.git}>
+          <Button className={"btn " + (props.git === "" ? 'btn-secondary disabled' : 'btn-info')} target="_blank" href={props.git}>
             <WhiteButton><i class="fab fa-github"></i> GIT</WhiteButton>
           </Button>   
         </ButtonWrapper>      

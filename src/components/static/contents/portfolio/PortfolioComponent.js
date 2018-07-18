@@ -122,7 +122,7 @@ const PortfolioComponent = () => {
           image={[edgestudy1ImagePath, edgestudy2ImagePath]}
           stack={edgestudyStack}
           link="http://edgestudy.herokuapp.com/"
-          demo="https://drive.google.com/file/d/1NcZw6EUkIEYO6WLRow7QYHAuTPKkZYH2/view?usp=sharing"
+          demo=""
           git="https://github.com/3457soso/project_edgestudy" />
         
         </div>

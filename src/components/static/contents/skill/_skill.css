@@ -56,11 +56,11 @@
   border-style: solid;
 }
 .progress-value{
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #848484;
   position: absolute;
   top: -37px;
-  right: -2px;
+  right: 0px;
 }
 @-webkit-keyframes animate-positive {
   0% { width: 0%; }
