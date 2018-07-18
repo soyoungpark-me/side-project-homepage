@@ -12,5 +12,6 @@
 }
 
 .disable-link{
-  color: #AAAAAA;
+  text-decoration: line-through;
+  color: #BBBBBB;
 }

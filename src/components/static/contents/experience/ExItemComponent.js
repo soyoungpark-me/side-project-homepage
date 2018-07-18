@@ -14,6 +14,10 @@ const Image = styled.img`
   margin-right: 10px;
 `;
 
+const Strong = styled.strong`
+  margin-left: 10px;
+`;
+
 const ExItemComponent = (props) => {
   return (
     <Wrapper>
@@ -25,7 +29,7 @@ const ExItemComponent = (props) => {
           <p>{props.role}</p>
           <Link href={props.link} to={props.link} spy={true} smooth={true} duration={500} >
             <p><i class="em em-point_right"></i>
-              <strong className={(props.link == null) ? 'disable-link':''}> 프로젝트 보러 가기</strong>
+              <Strong className={(props.link == null) ? 'disable-link':''}>프로젝트 보러 가기</Strong>
             </p>
           </Link>
         </div>
