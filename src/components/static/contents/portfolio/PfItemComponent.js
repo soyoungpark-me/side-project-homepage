@@ -24,11 +24,12 @@ const TopLine = styled.div`
 
 const Image = styled.img`
   border: 3px solid #DDDDDD;
+  margin-bottom: 10px !important;
   background: src(${(props)=>props.title});
 `
 
 const ContentsWrapper = styled.div`
-  padding-left: 30px;
+  padding-left: 50px;
 `;
 
 const Button = styled.a`
@@ -52,7 +53,8 @@ const PfItemComponent = (props) => {
     <Wrapper className="row" id={"portfolio-"+props.title}>
       <div className="col-md-7">
         <a href="#">
-          <Image className="img-fluid rounded mb-3 mb-md-0" src={props.image} alt=""/>
+          <Image className="img-fluid rounded mb-3 mb-md-0" src={props.image[0]} alt=""/>
+          <Image className="img-fluid rounded mb-3 mb-md-0" src={props.image[1]} alt=""/>
         </a>
       </div>
       <ContentsWrapper className="col-md-5">
@@ -63,10 +65,10 @@ const PfItemComponent = (props) => {
 
         <TopLine />        
         <p>{props.description}</p>        
-        <h4>role</h4>       
+        <h3>role</h3>       
         <p>{props.role}</p>
 
-        <h4>stack</h4>
+        <h3>stack</h3>
         {props.stack}
 
         <ButtonWrapper>

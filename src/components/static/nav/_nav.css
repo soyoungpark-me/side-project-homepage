@@ -2,6 +2,9 @@
   background-color: #e74a4a !important;
 }
 
+.navbar-top-name{
+  display: block;
+}
 .stack-icon-wrapper{
   background-color: #50514F;
   padding: 20px;
