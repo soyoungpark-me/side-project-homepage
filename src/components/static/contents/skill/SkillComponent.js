@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import SkillItemComponent from './SkillItemComponent';
+import SkItemComponent from './SkItemComponent';
 
 import './_skill.css';
 
@@ -48,46 +48,46 @@ const SkillComponent = () => {
         <RowWrapper className="row">
           <ColumnWrapper className="col-md-4">
             <SkillTitle className="subheading mb-3">Programming Languages</SkillTitle>
-            <SkillItemComponent name="java"       percent="80" color="#E14A34" wordmark="true" />
-            <SkillItemComponent name="javascript" percent="70" color="#EBDA5C" />
-            <SkillItemComponent name="c"          percent="60" color="#255A98" />
-            <SkillItemComponent name="php"        percent="50" color="#6680B3" upper="true" />
-            <SkillItemComponent name="python"     percent="30" color="#3F709F" />
+            <SkItemComponent name="java"       percent="80" color="#E14A34" wordmark="true" />
+            <SkItemComponent name="javascript" percent="70" color="#EBDA5C" />
+            <SkItemComponent name="c"          percent="60" color="#255A98" />
+            <SkItemComponent name="php"        percent="50" color="#6680B3" upper="true" />
+            <SkItemComponent name="python"     percent="30" color="#3F709F" />
           </ColumnWrapper>
           <ColumnWrapper className="col-md-4">
             <SkillTitle className="subheading mb-3">Frontend Languages &amp; Frameworks</SkillTitle>
-            <SkillItemComponent name="html5"      percent="70" color="#E14A34" wordmark="true" upper="true" />
-            <SkillItemComponent name="css3"       percent="70" color="#5A8EC2" wordmark="true" upper="true" />
-            <SkillItemComponent name="react"      percent="60" color="#6BDAF9" />
-            <SkillItemComponent name="android"    percent="50" color="#9FC347" />
+            <SkItemComponent name="html5"      percent="70" color="#E14A34" wordmark="true" upper="true" />
+            <SkItemComponent name="css3"       percent="70" color="#5A8EC2" wordmark="true" upper="true" />
+            <SkItemComponent name="react"      percent="60" color="#6BDAF9" />
+            <SkItemComponent name="android"    percent="50" color="#9FC347" />
           </ColumnWrapper>
 
           <ColumnWrapper className="col-md-4">
             <SkillTitle className="subheading mb-3">Backend Frameworks</SkillTitle>
-            <SkillItemComponent name="nodejs"     percent="80" color="#7ECD3C" />
-            <SkillItemComponent name="spring"     percent="60" color="#65BC4E" />
-            <SkillItemComponent name="rails"      percent="50" color="#A32C49" wordmark="true" />
-            <SkillItemComponent name="laravel"    percent="40" color="#FA4B3E" />
+            <SkItemComponent name="nodejs"     percent="80" color="#7ECD3C" />
+            <SkItemComponent name="spring"     percent="60" color="#65BC4E" />
+            <SkItemComponent name="rails"      percent="50" color="#A32C49" wordmark="true" />
+            <SkItemComponent name="laravel"    percent="40" color="#FA4B3E" />
           </ColumnWrapper>
         </RowWrapper>
 
         <RowWrapper className="row">
           <ColumnWrapper className="col-md-4">
             <SkillTitle className="subheading mb-3">Databases</SkillTitle>
-            <SkillItemComponent name="mysql"      percent="80" color="#3B7087" wordmark="true" />
-            <SkillItemComponent name="mongodb"    percent="70" color="#4DA948" />
-            <SkillItemComponent name="redis"      percent="60" color="#D4282E" />
+            <SkItemComponent name="mysql"      percent="80" color="#3B7087" wordmark="true" />
+            <SkItemComponent name="mongodb"    percent="70" color="#4DA948" />
+            <SkItemComponent name="redis"      percent="60" color="#D4282E" />
           </ColumnWrapper>
           <ColumnWrapper className="col-md-4">
             <SkillTitle className="subheading mb-3">Deployment Tools</SkillTitle>
-            <SkillItemComponent name="docker"     percent="40" color="#2B9AC3" wordmark="true" />
-            <SkillItemComponent name="jenkins"    percent="30" color="#D3353E" wordmark="true" />
+            <SkItemComponent name="docker"     percent="40" color="#2B9AC3" wordmark="true" />
+            <SkItemComponent name="jenkins"    percent="30" color="#D3353E" wordmark="true" />
           </ColumnWrapper>
 
           <ColumnWrapper className="col-md-4">
             <SkillTitle className="subheading mb-3">ETC</SkillTitle>
-            <SkillItemComponent name="git"        percent="70" color="#EF4B38" />
-            <SkillItemComponent name="amazonwebservices" percent="50" color="#F3A531" />
+            <SkItemComponent name="git"        percent="70" color="#EF4B38" />
+            <SkItemComponent name="amazonwebservices" percent="50" color="#F3A531" />
           </ColumnWrapper>
         </RowWrapper>
 
