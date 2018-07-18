@@ -1,5 +1,5 @@
 #skills{
-  padding: 80px 120px !important;
+  padding: 80px 160px !important;
 }
 
 #skills p {
@@ -8,14 +8,14 @@
 }
 
 #skills .mb-5 {
-  margin-bottom: 25px !important;
+  margin-bottom: 20px !important;
 }
 
 .progress{
   height: 7px;
   overflow: visible;
   background: #f0f0f0;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .progressbar-title{
   font-size: 1.25rem !important;

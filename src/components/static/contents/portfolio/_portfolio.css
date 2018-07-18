@@ -1,11 +1,11 @@
 #portfolio{
-  padding: 80px 120px !important;
+  padding: 80px 160px !important;
 }
 
 #portfolio p {
   color: #50514F;
   font-size: 1.2rem;
-  line-height: 2.1rem;
+  line-height: 2rem;
 }
 
 #portfolio .mb-5 {
