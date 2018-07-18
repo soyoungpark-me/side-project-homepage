@@ -18,8 +18,9 @@ const beweStack = [
   <DevItemComponent name="react"             fontSize="3rem"   left="0.5rem"  top="0.2rem"/>,
   <DevItemComponent name="mysql"             fontSize="2.4rem" left="0.9rem"  top="0.2rem"/>,
   <DevItemComponent name="redis"             fontSize="2.8rem" left="0.6rem"  top="0.15rem"/>,
-  <DevItemComponent name="amazonwebservices" fontSize="3rem"   left="0.35rem" top="0.2rem"/>,
-  <DevItemComponent name="gitlab"            fontSize="2.8rem" left="0.6rem"  top="0.2rem"/>
+  <DevItemComponent name="bootstrap"         fontSize="2.4rem" left="0.9rem"  top="0.1rem"/>,
+  <DevItemComponent name="gitlab"            fontSize="2.8rem" left="0.6rem"  top="0.2rem"/>,
+  <DevItemComponent name="amazonwebservices" fontSize="3rem"   left="0.35rem" top="0.2rem"/>
 ];
 
 const gofounderStack = [
