@@ -3,6 +3,7 @@ import React from 'react'
 import AboutComponent from './about/AboutComponent';
 import ExperienceComponent from './experience/ExperienceComponent';
 import PortfolioComponent from './portfolio/PortfolioComponent';
+import SkillComponent from './skill/SkillComponent';
 
 const WrapperComponent = () => {
   return (
@@ -10,6 +11,7 @@ const WrapperComponent = () => {
       <AboutComponent />
       <ExperienceComponent />
       <PortfolioComponent />
+      <SkillComponent />
     </div>
   );
 };

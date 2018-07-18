@@ -3,9 +3,9 @@ import PfItemComponent from './PfItemComponent';
 import DevItemComponent from './DevItemComponent';
 
 import './_portfolio.css';
-import studymateImagePath from '../../../../../public/images/studymate.jpg';
-import beweImagePath from '../../../../../public/images/bewe.jpg';
-import gofounderImagePath from '../../../../../public/images/gofounder.jpg';
+import studymateImagePath from '../../../../../public/images/pf-studymate.jpg';
+import beweImagePath from '../../../../../public/images/pf-bewe.jpg';
+import gofounderImagePath from '../../../../../public/images/pf-gofounder.jpg';
 
 const studymateStack = [
   <DevItemComponent name="php"               fontSize="3rem"   left="0.5rem"  top="0.3rem"/>,
@@ -36,6 +36,7 @@ const PortfolioComponent = () => {
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
       <div class="my-auto">
         <h1 class="mb-5">portfolio</h1>
+        
         <PfItemComponent 
           title="studymate"
           term="July 2017 - October 2017"

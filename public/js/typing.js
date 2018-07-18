@@ -38,7 +38,6 @@ function typeWriter() {
       at = 0;
     
   } else if (textSet[index].length + 1 == at) {
-    console.log('here');
     speed = 350;
     flag = true;
     at--;

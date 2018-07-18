@@ -3,10 +3,10 @@ import ExItemComponent from './ExItemComponent';
 
 import './_experience.css';
 
-import smilegateLogo from '../../../../../public/images/smilegate.jpg';
-import gofounderLogo from '../../../../../public/images/gofounder.png';
-import likelionLogo from '../../../../../public/images/likelion.png';
-import fourthreethreeLogo from '../../../../../public/images/433.jpg';
+import smilegateLogo from '../../../../../public/images/ex-smilegate.jpg';
+import gofounderLogo from '../../../../../public/images/ex-gofounder.png';
+import likelionLogo from '../../../../../public/images/ex-likelion.png';
+import fourthreethreeLogo from '../../../../../public/images/ex-433.jpg';
 
 const ExperienceComponent = () => {
   return (

@@ -1,0 +1,70 @@
+#skills{
+  padding: 80px 120px !important;
+}
+
+#skills p {
+  color: #50514F;
+  font-size: 1.3rem;
+}
+
+#skills .mb-5 {
+  margin-bottom: 25px !important;
+}
+
+.progress{
+  height: 7px;
+  overflow: visible;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+}
+.progressbar-title{
+  font-size: 1.25rem !important;
+  color: #848484;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.upper-title{
+  text-transform: uppercase;
+}
+.progress .progress-bar{
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+     -moz-animation: animate-positive 2s;
+      -ms-animation: animate-positive 2s;
+       -o-animation: animate-positive 2s;
+          animation: animate-positive 2s;
+}
+.level.start{
+  -webkit-animation: animate-positive 2s;
+     -moz-animation: animate-positive 2s;
+      -ms-animation: animate-positive 2s;
+       -o-animation: animate-positive 2s;
+          animation: animate-positive 2s;
+}
+.progress .progress-icon{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 25px;
+  border-radius: 50%;
+  font-size: 15px;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  background: #fff;
+  border-width: 4px;
+  border-style: solid;
+}
+.progress-value{
+  font-size: 1.1rem;
+  color: #848484;
+  position: absolute;
+  top: -37px;
+  right: -2px;
+}
+@-webkit-keyframes animate-positive {
+  0% { width: 0%; }
+}
+@keyframes animate-positive {
+  0% { width: 0%; }
+}

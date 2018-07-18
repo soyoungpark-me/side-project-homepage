@@ -6,3 +6,7 @@
   color: #50514F;
   font-size: 1.2rem;
 }
+
+#portfolio .mb-5 {
+  margin-bottom: 35px !important;
+}

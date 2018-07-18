@@ -7,6 +7,10 @@
   font-size: 1.2rem;
 }
 
+#experience .mb-5 {
+  margin-bottom: 25px !important;
+}
+
 .disable-link{
   color: #AAAAAA;
 }
