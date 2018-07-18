@@ -39,7 +39,8 @@ const PortfolioComponent = () => {
         <PfItemComponent 
           title="studymate"
           term="July 2017 - October 2017"
-          description="요즘 대학생, 직장인, 취준생 등 대상을 막론하고 유행하고 있는 공부 방식인 ‘스터디’를 더 편하게 진행할 수 있도록 개발된 웹-앱 플랫폼입니다."
+          description="요즘 대학생, 직장인, 취준생 등 대상을 막론하고 유행하고 있는 공부 방식인 
+            ‘스터디’를 더 편하게 진행할 수 있도록 개발된 웹-앱 플랫폼입니다."
           role="웹 서비스와 API 개발 전반을 맡았습니다. 처음으로 EC2를 통해 배포했고, 도메인을 구입해 연동했습니다."
           image={studymateImagePath}
           stack={studymateStack}
@@ -50,8 +51,10 @@ const PortfolioComponent = () => {
         <PfItemComponent 
           title="gofounder"
           term="August 2017 - December 2017"
-          description="고파운더는 ‘스타트업을 위한 스타트업’으로, 주 기능은 프로젝트를 업로드하고, 연락을 주고 받아 팀 빌딩을 하는 데 도움을 주는 것입니다."
-          role="고프로젝트에 지원하기 기능을 붙이거나, 고커뮤니티에 사진 업로드 기능을 붙이는 등, 초기 개발 단계에서 구현하지 못했던 추가적인 기획 사항들을 개발했습니다."
+          description="고파운더는 ‘스타트업을 위한 스타트업’으로, 주 기능은 프로젝트를 업로드하고, 
+            연락을 주고 받아 팀 빌딩을 하는 데 도움을 주는 것입니다."
+          role="고프로젝트에 지원하기 기능을 붙이거나, 고커뮤니티에 사진 업로드 기능을 붙이는 등, 
+            초기 개발 단계에서 구현하지 못했던 추가적인 기획 사항들을 개발했습니다."
           image={gofounderImagePath}
           stack={gofounderStack}
           link="https://www.gofounder.net/"
@@ -61,8 +64,10 @@ const PortfolioComponent = () => {
         <PfItemComponent 
           title="bewe"
           term="January 2018 - February 2018"
-          description="스마일게이트에서 진행한 서버개발캠프 3기에서 진행한 3인 팀 프로젝트로, 스마일게이트의 게임 플랫폼인 스토브를 모티브로 기획했습니다."
-          role="socket.io와 롱 폴링, 레디스 등을 이용해 실시간 소셜 기능과 랭킹 기능 개발을 담당했으며, 모든 개발이 끝난 후 전체 css 마크업을 맡아 프로젝트를 마무리했습니다."
+          description="스마일게이트에서 진행한 서버개발캠프 3기에서 진행한 3인 팀 프로젝트로, 
+            스마일게이트의 게임 플랫폼인 스토브를 모티브로 기획했습니다."
+          role="socket.io와 롱 폴링, 레디스 등을 이용해 실시간 소셜 기능과 랭킹 기능 개발을 담당했으며, 
+            모든 개발이 끝난 후 전체 css 마크업을 맡아 프로젝트를 마무리했습니다."
           image={beweImagePath}
           stack={beweStack}
           link="http://bewe.soyoungpark.me"

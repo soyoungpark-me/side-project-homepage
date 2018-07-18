@@ -1,8 +1,12 @@
-#portfolio{
+#experience{
   padding: 80px 120px !important;
 }
 
-#portfolio p {
+#experience p {
   color: #50514F;
   font-size: 1.2rem;
+}
+
+.disable-link{
+  color: #AAAAAA;
 }

@@ -5,8 +5,8 @@ import DevItemComopnent from '../../nav/DevItemComponent';
 
 const Wrapper = styled.div`
   position: relative;
+  padding-top: 80px;
   padding-bottom: 80px;
-  margin-bottom: 80px;
   border-bottom: 1px solid #C8C8C8;
 `;
 
@@ -49,7 +49,7 @@ const WhiteButton = styled.h4`
 
 const PfItemComponent = (props) => {
   return (
-    <Wrapper className="row">
+    <Wrapper className="row" id={"portfolio-"+props.title}>
       <div className="col-md-7">
         <a href="#">
           <Image className="img-fluid rounded mb-3 mb-md-0" src={props.image} alt=""/>

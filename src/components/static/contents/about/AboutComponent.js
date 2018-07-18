@@ -25,7 +25,7 @@ class AboutComponent extends React.Component {
           <div className="subheading mb-5">
             <a href="mailto:soyoungpark.me@gmail.com">soyoungpark.me@gmail.com</a>
           </div>
-          <p className="bio">웹 백엔드 개발자를 꿈꾸는 박소영입니다.</p>
+          <p className="bio">백엔드 개발자를 꿈꾸는 박소영입니다.</p>
           <p id="demo" className="mb-5"></p>
           <ul className="list-inline list-social-icons mb-0">
             <SocialComponent name="facebook-f" link="https://www.facebook.com/3457soso" />
