@@ -23,17 +23,16 @@ node {
       if(env.BRANCH_NAME == 'master'){
         try {
           sh 'docker rmi -f homepagefe'
-        } catch (err) { 
-        }
+        } catch (err) {}
 
         try {
           sh 'docker rm -f homepagefe'   
-        } catch (err) { 
-        }
+        } catch (err) {}
 
-        // sh 'docker rmi -f homepagefe:latest'
-        // sh 'docker rm -f homepagefe'
-        sh 'docker rmi $(docker images -f "dangling=true" -q)'
+        try { 
+          sh 'docker rmi $(docker images -f "dangling=true" -q)'
+        } catch (err) {}
+
         sh 'docker build -t homepagefe --no-cache .'
         sh 'docker run -d -p 9008:9008 --name=homepagefe homepagefe:latest'
         // sh 'docker tag homepagefe localhost:9008/homepagefe'
