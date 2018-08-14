@@ -24,13 +24,11 @@ node {
         try {
           sh 'docker rmi -f homepagefe'
         } catch (err) { 
-          throw err
         }
 
         try {
           sh 'docker rm -f homepagefe'   
         } catch (err) { 
-          throw err
         }
 
         // sh 'docker rmi -f homepagefe:latest'
@@ -45,6 +43,5 @@ node {
     }
   }
   catch (err) {
-    throw err
   }
 }
